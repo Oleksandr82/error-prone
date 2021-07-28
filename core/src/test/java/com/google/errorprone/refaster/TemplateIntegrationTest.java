@@ -365,4 +365,9 @@ public class TemplateIntegrationTest extends CompilerBasedTest {
   public void suppressWarnings() throws IOException {
     runTest("SuppressWarningsTemplate");
   }
+
+  @Test
+  public void onlyBeforeTemplate() throws IOException {
+    runTest("OnlyBeforeSimpleReturnTemplate");
+  }
 }
